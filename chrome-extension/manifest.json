@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Spaced Repetition Card Maker",
+    "version": "1.0",
+    "description": "Creates spaced repetition cards from selected text on web pages.",
+    "permissions": [
+      "activeTab"
+    ],
+    "commands": {
+      "_execute_action": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+L",
+          "mac": "Command+Shift+L"
+        }
+      }
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }

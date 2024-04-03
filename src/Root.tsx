@@ -3,9 +3,9 @@ import { Link, Outlet } from "react-router-dom";
 export function Root() {
     return <>
         <header>
-            <Link to="/">Home</Link>
+            <div className="container"><Link to="/">Home</Link></div>
         </header>
-        <main>
+        <main className="container">
             <Outlet />
         </main>
         <footer>
