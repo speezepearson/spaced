@@ -1,4 +1,3 @@
-import { Id } from "./_generated/dataModel";
 import { httpAction, mutation, query } from "./_generated/server";
 import { v } from "convex/values";
 import { api } from "./_generated/api";
